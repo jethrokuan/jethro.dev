@@ -1,0 +1,29 @@
+{
+  "name": "jethro.dev",
+  "version": "1.0.0",
+  "description": "Jethro's main website",
+  "main": "index.js",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^1.3.0",
+    "autoprefixer": "^9.7.3",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.1.4",
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:css": "postcss src/tailwind.css -o public/css/tailwind.css",
+    "watch": "watch 'npm run build:css' ./public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jethrokuan/jethro.dev.git"
+  },
+  "author": "Jethro Kuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jethrokuan/jethro.dev/issues"
+  },
+  "homepage": "https://github.com/jethrokuan/jethro.dev#readme"
+}

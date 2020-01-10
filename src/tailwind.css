@@ -1,0 +1,22 @@
+/* purgecss start ignore */
+@tailwind  base;
+@tailwind  components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+html {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 20px;
+}
+
+a {
+  @apply underline text-red-600;
+}
+
+a:hover {
+  @apply text-red-400;
+}
+
+p {
+  @apply my-3;
+}
